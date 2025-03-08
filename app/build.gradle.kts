@@ -85,7 +85,6 @@ dependencies {
     implementation(libs.androidx.material)
     implementation(libs.androidx.lifecycle.runtime.compose)
     implementation(libs.androidx.tools.core)
-    implementation(libs.androidx.databinding.adapters)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -104,10 +103,7 @@ dependencies {
     annotationProcessor( libs.androidx.room.compiler)
     // constraint layout
     implementation (libs.androidx.constraintlayout.compose)
-    // coil
     implementation(libs.coil.compose)
-
-    // pager
     implementation(libs.compose.foundation)
 
     //koin
@@ -117,21 +113,6 @@ dependencies {
     implementation(libs.koin.compose)
     implementation(libs.koin.android.compose)
     implementation(libs.koin.android.compose.navigation)
-    implementation(libs.converter.gson)
-    implementation(libs.retrofit2)
-    implementation(libs.gson)
-    implementation(libs.logging.interceptor)
-    implementation(libs.converter.gson)
-    implementation(libs.converter.scalars)
-
-
-    implementation(libs.kotlinx.serialization.json)
-
-    api(libs.gson)
-    implementation(libs.zxing.android.embedded)
-
-    implementation(libs.androidx.paging.runtime)
-    implementation(libs.androidx.paging.compose)
     implementation("org.burnoutcrew.composereorderable:reorderable:0.9.6")
 
 
